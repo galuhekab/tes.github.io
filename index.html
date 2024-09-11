@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Webinar waspada COVID</title>
+    <style>
+      body {
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+        font-size: 90%;
+        color: #666;
+        background-color: #f8f8f8;
+      }
+      h1 span {
+        color: red;
+      }
+      li {
+        list-style-image: url("https://s.w.org/images/core/emoji/13.0.0/svg/2b55.svg");
+        line-height: 1.6em;
+      }
+      table {
+        border-spacing: 0px;
+      }
+      th,
+      td {
+        padding: 5px 30px 5px 10px;
+        border-spacing: 0px;
+        font-size: 90%;
+        text-align: left;
+        background-color: #e0e9f0;
+        border-top: 1px solid #f1f8fe;
+        border-bottom: 1px solid #cbd2d8;
+        border-right: 1px solid #cbd2d8;
+      }
+
+      .head th {
+        background-color: #90b4d6;
+        border-bottom: 2px solid #547ca0;
+        border-right: 1px solid #749abe;
+        border-top: 1px solid #90b4d6;
+        text-align: center;
+        text-shadow: -1px -1px 1px #666;
+        letter-spacing: 0.15em;
+      }
+      td {
+        text-shadow: 1px 1px 1px #fff;
+      }
+      .head .satu {
+        border-top-left-radius: 5px;
+      }
+      .head .empat {
+        border-top-right-radius: 5px;
+      }
+      h1 {
+        margin-top: 0px;
+      }
+      fieldset {
+        border-radius: 5px;
+        width: 310px;
+        margin-top: 10px;
+        border: 1px solid #d6d6d6;
+        background-color: #fff;
+        line-height: 1.6em;
+      }
+
+      legend {
+        color: #666;
+      }
+      input[type="text"] {
+        width: 120px;
+        border: 1px solid #d6d6d6;
+        padding: 2px;
+        outline: none;
+      }
+      input[type="text"]:focus,
+      input[type="text"]:hover {
+        background-color: #d0e2f0;
+        border: 1px solid #999;
+      }
+      button {
+        margin-top: 5px;
+        margin-left: 5px;
+        border: 1px solid #063;
+        border-radius: 2.5px;
+        background-color: #096;
+        color: #fff;
+        font-weight: bold;
+        padding: 5px;
+      }
+      .title {
+        float: left;
+        width: 160px;
+        clear: left;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Webinar waspada <span>COVID</span></h1>
+    <p>Kami menghadirkan beberapa webinar yang terkait dengan waspada Covid</p>
+    <p>Pastikan kamu ikut mendaftar. Biar tahu</p>
+  </body>
+  <ul>
+    <li>Menjaga kesehatan mata di masa pandemi</li>
+    <li>Ending the pandemic Covid 19 : Effort and challanges</li>
+    <li>Peningkatan imunitas untuk lawan covid</li>
+  </ul>
+  <table>
+    <tr class="head">
+      <th class="satu"></th>
+      <th class="dua">Zoom</th>
+      <th class="tiga">Google Meet</th>
+      <th class="empat">Live Youtube</th>
+    </tr>
+    <tr>
+      <th>Menjaga kesehatan mata di masa pandemi</th>
+      <td><a href="">Link Zoom</a></td>
+      <td><a href="">Link Google</a></td>
+      <td><a href="">Link Youtube</a></td>
+    </tr>
+    <tr>
+      <th>Ending the pandemic Covid 19 : Effort and challanges</th>
+      <td><a href="">Link Zoom</a></td>
+      <td><a href="">Link Google</a></td>
+      <td><a href="">Link Youtube</a></td>
+    </tr>
+    <tr>
+      <th>Peningkatan imunitas untuk lawan covid</th>
+      <td><a href="">Link Zoom</a></td>
+      <td><a href="">Link Google</a></td>
+      <td><a href="">Link Youtube</a></td>
+    </tr>
+  </table>
+  <form action="$" method="post">
+    <fieldset>
+      <legend>Daftarkan dirimu</legend>
+      <p>
+        <label for="nama" class="title">Nama :</label>
+        <input type="text" /><br />
+        <label for="nama" class="title">Email :</label>
+        <input type="text" />
+      </p>
+
+      <p>
+        <label for="title" class="title"> Pilihan Link Webinar </label>
+        <select name="location" id="location">
+          <option value="location">Zoom</option>
+          <option value="location">Google Meet</option>
+          <option value="location">Live Youtube</option>
+        </select>
+      </p>
+    </fieldset>
+    <button type="submit" name="btn">Daftarkan</button>
+  </form>
+</html>
